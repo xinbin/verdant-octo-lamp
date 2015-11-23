@@ -7,7 +7,7 @@
  Then the page should load
  And a filter list of customers should be present
  */
-var url = 'http://stage.rackspace.co.uk/customers'
+var url = 'http://rackspace.co.uk/customers'
 module.exports = {
     'When I visit *.rackspace.co.uk/customers' : function (browser) {
         browser
